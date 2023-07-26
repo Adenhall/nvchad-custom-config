@@ -35,6 +35,7 @@ M.mason = {
     "deno",
     "prettier",
     "rubocop",
+    "solargraph",
     "eslint_d",
 
     -- c/cpp stuff
