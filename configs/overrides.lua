@@ -11,6 +11,7 @@ M.treesitter = {
     "tsx",
     "c",
     "ruby",
+    "python",
     "markdown",
     "markdown_inline",
   },
@@ -36,6 +37,10 @@ M.mason = {
     "prettier",
     "rubocop",
     "solargraph",
+    "pyright",
+    "mypy",
+    "ruff",
+    "black",
     "eslint_d",
 
     -- c/cpp stuff

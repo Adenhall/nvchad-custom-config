@@ -20,6 +20,11 @@ local sources = {
   b.formatting.rubocop,
   b.diagnostics.rubocop,
 
+  -- Python stuff
+  b.diagnostics.mypy,
+  b.diagnostics.ruff,
+  b.formatting.black,
+
   -- cpp
   b.formatting.clang_format,
 }
