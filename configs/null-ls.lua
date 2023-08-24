@@ -16,10 +16,6 @@ local sources = {
   -- Lua
   b.formatting.stylua,
 
-  -- ruby stuff
-  b.formatting.rubocop,
-  b.diagnostics.rubocop,
-
   -- cpp
   b.formatting.clang_format,
 }
