@@ -36,6 +36,7 @@ M.mason = {
     "prettier",
     "eslint_d",
     "rust-analyzer",
+    "codelldb",
 
     -- c/cpp stuff
     "clangd",

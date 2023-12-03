@@ -75,6 +75,10 @@ local plugins = {
     config = function (_, opts)
       require("rust-tools").setup(opts)
     end
+  },
+
+  {
+    "mfussenegger/nvim-dap",
   }
 
   -- To make a plugin not be loaded
