@@ -13,5 +13,14 @@ for _, lsp in ipairs(servers) do
   }
 end
 
+lspconfig.solidity.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+  cmd = {'nomicfoundation-solidity-language-server', '--stdio'},
+  filetypes = { 'solidity' },
+  root_dir = lspconfig.util.find_git_ancestor,
+  single_file_support = true,
+}
+
 -- 
 -- lspconfig.pyright.setup { blabla}

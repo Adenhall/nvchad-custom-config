@@ -10,7 +10,7 @@ M.treesitter = {
     "typescript",
     "tsx",
     "c",
-    "ruby",
+    "solidity",
     "markdown",
     "markdown_inline",
   },
@@ -34,8 +34,8 @@ M.mason = {
     "typescript-language-server",
     "deno",
     "prettier",
-    "rubocop",
-    "solargraph",
+    "nomicfoundation-solidity-language-server",
+    "solhint",
     "eslint_d",
 
     -- c/cpp stuff

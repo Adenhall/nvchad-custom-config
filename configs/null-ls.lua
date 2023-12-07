@@ -16,9 +16,9 @@ local sources = {
   -- Lua
   b.formatting.stylua,
 
-  -- ruby stuff
-  b.formatting.rubocop,
-  b.diagnostics.rubocop,
+  -- solidity
+  b.diagnostics.solhint,
+  b.formatting.forge_fmt,
 
   -- cpp
   b.formatting.clang_format,
