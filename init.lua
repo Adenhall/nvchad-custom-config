@@ -1,4 +1,5 @@
 local autocmd = vim.api.nvim_create_autocmd
+local cmd = vim.api.nvim_create_user_command
 
 -- Auto resize panes when resizing nvim window
 autocmd("VimResized", {
@@ -8,5 +9,9 @@ autocmd("VimResized", {
 
 autocmd("VimLeavePre", {
   pattern = "*",
-  command = "!eslint_d stop"
+  command = "!eslint_d stop",
 })
+
+cmd("CloseAllBufs", function()
+  require("nvchad.tabufline").closeAllBufs()
+end, {})
